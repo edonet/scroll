@@ -11,7 +11,7 @@
     "author": "edoner <edonet@163.com>",
     "license": "MIT",
     "dependencies": {
-        "@arted/animate": "^0.0.101",
+        "@arted/animate": "^0.0.103",
         "@arted/utils": "^0.0.114"
     }
 }

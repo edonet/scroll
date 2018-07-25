@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@arted/animate@^0.0.101":
-  version "0.0.101"
-  resolved "https://registry.yarnpkg.com/@arted/animate/-/animate-0.0.101.tgz#392ee6326e7e90e858a1b060189e76228d4ce633"
+"@arted/animate@^0.0.103":
+  version "0.0.103"
+  resolved "https://registry.yarnpkg.com/@arted/animate/-/animate-0.0.103.tgz#6583733e226a969aaa829f74c55b9991d0fb94bb"
   dependencies:
     "@arted/utils" "^0.0.111"
 
