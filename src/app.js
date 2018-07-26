@@ -12,7 +12,7 @@
  * 加载依赖
  *****************************************
  */
-import React, { Component, createRef } from '../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
+import React, { Component, createRef } from 'react';
 import Scroll from '../lib';
 import style from './app.scss';
 
@@ -53,7 +53,7 @@ export default class App extends Component {
     componentDidMount() {
 
         // 创建滚动对象
-        this.$$scroll = new Scroll(this.$$ref.current, { bounce: true, momentum: true });
+        this.$$scroll = new Scroll(this.$$ref.current, { bounce: false, momentum: true });
 
         // 监听滚动事件
         this.$$scroll.on('scroll', function (event) {
