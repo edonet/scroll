@@ -12,8 +12,8 @@
  * 加载依赖
  *****************************************
  */
-import React, { Component, createRef } from 'react';
-import Scroll from '../lib/index';
+import React, { Component, createRef } from '../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
+import Scroll from '../lib';
 import style from './app.scss';
 
 
