@@ -13,7 +13,7 @@
  *****************************************
  */
 import React, { Component, createRef } from 'react';
-import Scroll from '../lib';
+import Scroll from '../lib/scroll';
 import style from './app.scss';
 
 
