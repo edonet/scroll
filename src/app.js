@@ -53,7 +53,7 @@ export default class App extends Component {
     componentDidMount() {
 
         // 创建滚动对象
-        this.$$scroll = new Scroll(this.$$ref.current, { bounce: false, momentum: true });
+        this.$$scroll = new Scroll(this.$$ref.current, { bounce: true, momentum: true });
 
         // 监听滚动事件
         this.$$scroll.on('scroll', function (event) {
