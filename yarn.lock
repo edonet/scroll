@@ -2,22 +2,11 @@
 # yarn lockfile v1
 
 
-"@arted/animate@^0.0.103":
-  version "0.0.103"
-  resolved "https://registry.yarnpkg.com/@arted/animate/-/animate-0.0.103.tgz#6583733e226a969aaa829f74c55b9991d0fb94bb"
+"@arted/animate@^0.0.104":
+  version "0.0.104"
+  resolved "https://registry.yarnpkg.com/@arted/animate/-/animate-0.0.104.tgz#42e72278d2b914a32eb08eb62bee0d069e204089"
   dependencies:
-    "@arted/utils" "^0.0.111"
-
-"@arted/utils@^0.0.111":
-  version "0.0.111"
-  resolved "https://registry.yarnpkg.com/@arted/utils/-/utils-0.0.111.tgz#d96889be49533cc1367fb3206a7f60dbcc603f3b"
-  dependencies:
-    archiver "^2.1.1"
-    babel-runtime "^6.26.0"
-    glob "^7.1.2"
-    unzip "^0.1.11"
-    xml2js "^0.4.19"
-    yargs "^12.0.1"
+    "@arted/utils" "^0.0.114"
 
 "@arted/utils@^0.0.114":
   version "0.0.114"
@@ -124,8 +113,8 @@ buffer-fill@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-fill/-/buffer-fill-1.0.0.tgz#f8f78b76789888ef39f205cd637f68e702122b2c"
 
 buffer@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.1.0.tgz#c913e43678c7cb7c8bd16afbcddb6c5505e8f9fe"
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.2.0.tgz#53cf98241100099e9eeae20ee6d51d21b16e541e"
   dependencies:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
@@ -185,8 +174,8 @@ crc32-stream@^2.0.0:
     readable-stream "^2.0.0"
 
 crc@^3.4.4:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/crc/-/crc-3.7.0.tgz#58b7083e32ba4b276e1f4cbce1a78b39a6ab63f9"
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/crc/-/crc-3.8.0.tgz#ad60269c2c856f8c299e2c4cc0de4556914056c6"
   dependencies:
     buffer "^5.1.0"
 

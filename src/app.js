@@ -31,12 +31,18 @@ export default class App extends Component {
         // 定义属性
         this.$$ref = createRef();
         this.$$scroll = null;
+
+        // 定义状态
+        this.state = { count: 50 };
+
+        // 抛出更新方法
+        window.$update = count => this.setState({ count });
     }
 
     /* 渲染列表 */
     render() {
         let list = [],
-            len = 100;
+            len = this.state.count;
 
         while (len --) {
             list.unshift(<li key={ len }>{ len }</li>);
@@ -69,7 +75,15 @@ export default class App extends Component {
         this.$$scroll.on('scrollEnd', function () {
             console.log('--> end', this.x, this.y);
         });
+    }
 
-        console.log(this.$$scroll);
+    /* 更新组件 */
+    componentDidUpdate() {
+        this.$$scroll && this.$$scroll.refresh();
+    }
+
+    /* 卸载组件 */
+    componentWillUnmount() {
+        this.$$scroll.destroy();
     }
 }
