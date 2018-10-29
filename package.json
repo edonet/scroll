@@ -1,18 +1,16 @@
 {
     "name": "@arted/scroll",
-    "version": "0.0.1",
+    "version": "0.0.101",
     "description": "Arted scroll",
-    "main": "./scroll.js",
-    "scripts": {
-        "build": "drap ./lib ./build",
-        "release": "yarn build && cd build && yarn publish"
-    },
+    "main": "index.js",
+    "files": ["lib"],
     "repository": "git@github.com:edonet/scroll.git",
     "author": "edoner <edonet@163.com>",
     "license": "MIT",
     "dependencies": {
         "@arted/animate": "^0.0.104",
+        "@arted/style": "^0.0.117",
         "@arted/utils": "^0.0.122",
-        "@arted/web": "^0.0.102"
+        "@arted/web": "^0.0.103"
     }
 }
